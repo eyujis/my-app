@@ -22,19 +22,12 @@ export default function ExcalidrawCanvas() {
   const initialData = {
     elements: [
       {
-        "type": "arrow",
-        "x": 255,
-        "y": 239,
-        "label": {
-          "text": "HELLO WORLD!!"
-        },
-        "start": {
-          "type": "rectangle"
-        },
-        "end": {
-          "type": "ellipse"
-        }
-      }
+        type: "rectangle",
+        x: 100,
+        y: 100, 
+        height: 100,
+        width: 100,
+     }
     ]
   }
 
